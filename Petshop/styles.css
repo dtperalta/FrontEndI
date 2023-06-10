@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 #header-negro {
@@ -371,21 +374,29 @@ footer > p {
 
     .f-naranja {
         flex-direction: column;
-        padding-bottom: 0.625rem;
+        padding: 0 0 0.625rem 0;
     }
 
-    .div-f-naranja-1 {
-        justify-content: center;
+    .div-f-naranja-1 > img {
+        margin-right: 1.5rem;
+        margin-left: 0.313rem;
     }
 
     .div-f-naranja-2 {
         justify-content: center;
+        margin-left: 0.938rem;
+        margin-right: 1.813rem;
+    }
+
+    .div-f-naranja-2 > input {
+        margin-right: 0.563rem;
     }
 
     .div-f-naranja-2 > button {
         font-size: 0.938rem;
         height: 2.188rem;
         width: 6.25rem;
+        margin-left: 0;
     }
 
     .f-marron {
