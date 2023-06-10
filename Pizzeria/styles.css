@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #E5E5E5;
+}
+
+.beg-end {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: #F3F3F3;
+    align-items: center;
+}
+
+header {
+    padding: 10px;
+}
+
+header > nav {
+    display: flex;
+}
+
+header > nav > ul {
+    display: flex;
+    list-style: none; 
+}
+
+header > nav > ul > li {
+    display: block;
+    padding: 0 6.5px;
+}
+
+main {
+    display: flex;
+    margin: 35px 19px;
+}
+
+#delivery {
+    width: 50%;
+}
+
+#delivery > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#delivery > p {
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    left: 39px;
+    font-size: 28px;
+}
+
+#delivery > p > span {
+    color: white;
+}
+
+#pizzas {
+    background-color: white;
+    width: 50%;
+}
+
+#podio {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    align-items: center;
+}
+
+div > pre {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+div > ol {
+    font-weight: bold;
+}
+
+ol > li {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+#container > img {
+    width: 150px;
+    height: 210px;
+}
+
+footer {
+    padding: 0 40px 0px 20px;
+}
+
+footer > nav > ul {
+    padding: 0;
+}
+
+footer > nav > ul > li {
+    list-style: none;
+    padding: 5px 0;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 146.37px;
+}
+
+header > section > h1 {
+    padding: 12.5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#personal-data, #academic-info, #experience {
+    margin: 15px 0;
+}
+
+.title {
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+    padding: 5px 0;
+}
+
+#personal-data {
+    margin-top: 128px;
+}
+
+li > pre {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#personal-data > ul > li > p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li > p > span {
+    font-weight: normal;
+    font-style: normal;
+}
+
+li > pre > span {
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background: #005677;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 147px;
+}
+
+footer > section {
+    font-weight: bold;
+    align-items: center;
+}
+
+.item {
+    margin-right: 10px;
+    margin-left: 10px;
+}

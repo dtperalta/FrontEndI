@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: white;
+}
+
+#descuentos {
+    background-color: #D1891C;
+    font-size: 15px;
+    padding: 10px 0 10px 27px;
+    font-weight: 400;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#heroes-h {
+    background-color: #00669F;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 38px 0 0 0;
+    padding: 18px 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+.tarjeta {
+    background-color: #F3F3F3;
+    width: 300px;
+    min-height: 607px;
+    margin: 20px 0;
+    position: relative;
+    border-radius: 7% 7% 0 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.sh-fondo-div {
+    width: 300px;
+    height: 193px;
+}
+
+.fondo {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border-radius: 7% 7% 0 0;
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.sh-img-div {
+    width: 120px;
+    height: 118px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rounded {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.tarjeta > h2 {
+    margin-top: 73px;
+    text-align: center;
+}
+
+.tarjeta > p {
+    padding: 0 15px;
+}
+
+button {
+    display: block;
+    color: white;
+    background-color: #00669F;
+    border: none;
+    font-size: 15px;
+    padding: 15px 37px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    position: relative;
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 8px;
+    text-align: center;
+}
+
+.img-git {
+    position: absolute;
+    width: 75px;
+    height: 21px;
+    top: 21px;
+    right: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 47px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer > p {
+        font-size: small;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tarjeta {
+        margin: 20px;
+    }
+
+    footer > p {
+        font-size: small;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .tarjeta {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1101px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 57px 0
+    }
+    
+    .tarjeta {
+        margin: 20px;
+    }
+
+}

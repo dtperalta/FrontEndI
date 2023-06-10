@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    font-family: Lobster;
+    letter-spacing: 3px;
+    background-color: #ffebf7;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+header > section > h1 {
+    padding: 12.5px;
+    background-color: #f1877a;
+    text-align: center;
+    color: white;
+}
+
+#personal-data, #academic-info, #experience {
+    margin: 15px 0;
+}
+
+.title {
+    background-color: #fdb4bf;
+    color: white;
+    padding: 5px 0;
+    font-family: Cookie;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#personal-data {
+    margin-top: 128px;
+}
+
+li > pre {
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+#personal-data > ul > li > p {
+    font-weight: bold;
+}
+
+li > p > span {
+    font-weight: normal;
+    font-style: normal;
+}
+
+li > pre > span {
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background: #fdb4bf;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 147px;
+}
+
+footer > section {
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+footer > section > a {
+    color: white;
+}
+
+.item {
+    margin-right: 10px;
+    margin-left: 10px;
+}
