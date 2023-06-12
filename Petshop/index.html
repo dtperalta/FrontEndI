@@ -62,14 +62,14 @@
         <section class="info">
             <h2>Contáctanos</h2>
             <form>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Ingresá tu correo electrónico">
-                <input type="text" placeholder="Teléfono">
-            </form>
-            <div class="botones">
-                <button class="btn reset">Resetear</button>
-                <button class="btn enviar">Enviar</button>
-            </div>
+                <input name="Nombre" type="text" placeholder="Nombre y Apellido" required>
+                <input name="email" type="email" placeholder="Ingresá tu correo electrónico" required>
+                <input name="cell" type="text" placeholder="Teléfono" required>
+                <div class="botones">
+                    <button class="btn reset" type="reset">Resetear</button>
+                    <button class="btn enviar" type="submit">Enviar</button>
+                </div>
+        </form>
         </section>
     <footer>
         <section class="f-naranja">
@@ -77,10 +77,10 @@
                 <img alt="correo" src="img/mail.png">
                 <h3>Suscríbete para más novedades</h3>
             </div>
-            <div class="div-f-naranja-2">
-                <input type="email" placeholder="Ingresá tu correo electrónico">
-                <button>Suscribirme</button>
-            </div>
+            <form class="div-f-naranja-2">
+                <input name="correo" type="email" placeholder="Ingresá tu correo electrónico" required>
+                <button type="submit">Suscribirme</button>
+            </form>
         </section>
         <section class="f-marron">
             <div class="icons">
