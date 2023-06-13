@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#descuentos {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 2px 0 2px 10px ;
+    font-weight: 400;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#heroes-h {
+    display: flex;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 22px 0 0 0;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#heroes-h > img {
+    height: 74px;
+    width: 99px;
+}
+
+#heroes-h > p {
+    margin: 0;
+}
+
+.menu {
+    background-color: #001D2D;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu > nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu > nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu > nav > ul > li {
+    padding: 0 10px;
+}
+
+.menu > nav > ul > li:last-child {
+    margin-right: 10px;
+}
+
+main {
+    margin: 40px 243px;
+}
+
+form {
+    font-family: Inter;
+    color: white;
+    background-color: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+    text-align: center;
+}
+
+form > h1 {
+    font-size: 40px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+form > p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 11px 40px 11px;
+}
+
+label {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+label[for="date"] {
+    margin-bottom: 20px;
+}
+
+label[for="foto"]{
+    margin-bottom: 35px;
+}
+
+input[type="text"], input[type="date"], select {
+    height: 63px;
+    width: 343px;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    margin-bottom: 30px;
+    font-family: Inter;
+    padding: 20px 10px;
+} 
+
+select {
+    padding: 10px;
+}
+
+input[type="text"], select {
+    font-size: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 54px;
+    color: black;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.twelve-px {
+    margin-bottom: 12px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+    padding: 0 0 33px 0;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 21px;
+    width: 100%;
+}
+
+fieldset > label {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: 24px;
+    height: 20px;
+    margin-bottom: 13px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+textarea {
+    width: 343px;
+    height: 336px;
+    background-color: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    resize: none;
+    font-family: Inter;
+    font-size: 20px;
+    padding: 20px 10px;
+}
+
+input[type="submit"] {
+    font-size: 40px;
+    font-weight: bold;
+    width: 466px;
+    height: 87px;
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    margin-bottom: 18px;
+}
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    padding: 8px;
+    text-align: center;
+}
