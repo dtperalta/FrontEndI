@@ -64,6 +64,11 @@ body {
     padding: 0 10px;
 }
 
+.menu > nav > ul > li:hover {
+    background-color: #FFFFFF;
+    color:#001D2D;
+}
+
 .menu > nav > ul > li:last-child {
     margin-right: 10px;
 }
@@ -151,6 +156,15 @@ input[type="radio"] {
     margin-right: 20px;
 }
 
+.label-required::before {
+    content: "*";
+    display: inline;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color: #e8f0fe;
+}
+
 .twelve-px {
     margin-bottom: 12px;
 }
@@ -164,7 +178,7 @@ fieldset {
     border: none;
     border-bottom: 1px solid #CCCCCC;
     margin-bottom: 21px;
-    width: 100%;
+    width: 343px;
 }
 
 fieldset > label {
@@ -178,6 +192,17 @@ input[type="checkbox"] {
     margin-bottom: 13px;
     margin-right: 20px;
     margin-left: 0;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #34CEFF;
+    color: white;
+}
+
+input[type="radio"]:checked {
+    accent-color: #4DD1FB;
 }
 
 textarea {
